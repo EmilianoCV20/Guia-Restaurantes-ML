@@ -1,0 +1,1822 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c30dfeccf7f8216215803f0a42b9c22b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c30dfeccf7f8216215803f0a42b9c22b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c30dfeccf7f8216215803f0a42b9c22b = L.map(
+                "map_c30dfeccf7f8216215803f0a42b9c22b",
+                {
+                    center: [40.73413820106606, -73.83703243904702],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_47c2b63208f90f0fdbcf8b2713ae349a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_47c2b63208f90f0fdbcf8b2713ae349a.addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var marker_fa7b9729c24ec1dca04e30055837f300 = L.marker(
+                [40.693358665331, -73.852016470596],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_7e91b0622bd35b045867da3f0c014e01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fa7b9729c24ec1dca04e30055837f300.setIcon(icon_7e91b0622bd35b045867da3f0c014e01);
+        
+    
+        var popup_760d3d624e9e5820ca82e53979bc7f25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8288643f3072517d7be2b1de65d94185 = $(`<div id="html_8288643f3072517d7be2b1de65d94185" style="width: 100.0%; height: 100.0%;">TAQUERIA PANTITLAN (Score: 154)</div>`)[0];
+                popup_760d3d624e9e5820ca82e53979bc7f25.setContent(html_8288643f3072517d7be2b1de65d94185);
+            
+        
+
+        marker_fa7b9729c24ec1dca04e30055837f300.bindPopup(popup_760d3d624e9e5820ca82e53979bc7f25)
+        ;
+
+        
+    
+    
+            marker_fa7b9729c24ec1dca04e30055837f300.bindTooltip(
+                `<div>
+                     TAQUERIA PANTITLAN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79d229d49850f0c7a1b77fffb88447de = L.marker(
+                [40.672369987998, -73.75997430596],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_adbbf1cfe036808064b50c27419759f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_79d229d49850f0c7a1b77fffb88447de.setIcon(icon_adbbf1cfe036808064b50c27419759f2);
+        
+    
+        var popup_49bf3c06e4436e7d597a0230d5a2d952 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_930930022813ceb6c742a27890ce5bee = $(`<div id="html_930930022813ceb6c742a27890ce5bee" style="width: 100.0%; height: 100.0%;">HUSKY-P MEALS DIRECT (Score: 138)</div>`)[0];
+                popup_49bf3c06e4436e7d597a0230d5a2d952.setContent(html_930930022813ceb6c742a27890ce5bee);
+            
+        
+
+        marker_79d229d49850f0c7a1b77fffb88447de.bindPopup(popup_49bf3c06e4436e7d597a0230d5a2d952)
+        ;
+
+        
+    
+    
+            marker_79d229d49850f0c7a1b77fffb88447de.bindTooltip(
+                `<div>
+                     HUSKY-P MEALS DIRECT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_837d8409cd22efc5ca598788bb28ef0f = L.marker(
+                [40.727102188622, -73.893414465331],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_e2b58eac57b2c68eba92cb3e71406f30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_837d8409cd22efc5ca598788bb28ef0f.setIcon(icon_e2b58eac57b2c68eba92cb3e71406f30);
+        
+    
+        var popup_5a66a4b2e70292a38e8ec5202385e193 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28c32bb9583c66c4e1e36067dd2cffe9 = $(`<div id="html_28c32bb9583c66c4e1e36067dd2cffe9" style="width: 100.0%; height: 100.0%;">AFFY'S GRILL (Score: 136)</div>`)[0];
+                popup_5a66a4b2e70292a38e8ec5202385e193.setContent(html_28c32bb9583c66c4e1e36067dd2cffe9);
+            
+        
+
+        marker_837d8409cd22efc5ca598788bb28ef0f.bindPopup(popup_5a66a4b2e70292a38e8ec5202385e193)
+        ;
+
+        
+    
+    
+            marker_837d8409cd22efc5ca598788bb28ef0f.bindTooltip(
+                `<div>
+                     AFFY'S GRILL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cef28028b756ec2584b244208aa60f5c = L.marker(
+                [40.741617107084, -73.882767073715],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_bfca081604342854c56a3a6a6c0b82a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cef28028b756ec2584b244208aa60f5c.setIcon(icon_bfca081604342854c56a3a6a6c0b82a4);
+        
+    
+        var popup_db83281cd4fbb58c9befd9a2defc3c06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab2943fbbc4a67b3f33d092c719484d0 = $(`<div id="html_ab2943fbbc4a67b3f33d092c719484d0" style="width: 100.0%; height: 100.0%;">BURMESE HUT (Score: 132)</div>`)[0];
+                popup_db83281cd4fbb58c9befd9a2defc3c06.setContent(html_ab2943fbbc4a67b3f33d092c719484d0);
+            
+        
+
+        marker_cef28028b756ec2584b244208aa60f5c.bindPopup(popup_db83281cd4fbb58c9befd9a2defc3c06)
+        ;
+
+        
+    
+    
+            marker_cef28028b756ec2584b244208aa60f5c.bindTooltip(
+                `<div>
+                     BURMESE HUT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_461f7a69e87b98d290e7398d256a2c00 = L.marker(
+                [40.701285953531, -73.888771014683],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_b2f3957e87463911b2e5ef178c3b7381 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_461f7a69e87b98d290e7398d256a2c00.setIcon(icon_b2f3957e87463911b2e5ef178c3b7381);
+        
+    
+        var popup_43efb9ce4991a39ae91c82f0f2e8f984 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_893194729802eac2e4ac634891e28d4d = $(`<div id="html_893194729802eac2e4ac634891e28d4d" style="width: 100.0%; height: 100.0%;">DELILICIOUS KITCHEN & CAFE (Score: 129)</div>`)[0];
+                popup_43efb9ce4991a39ae91c82f0f2e8f984.setContent(html_893194729802eac2e4ac634891e28d4d);
+            
+        
+
+        marker_461f7a69e87b98d290e7398d256a2c00.bindPopup(popup_43efb9ce4991a39ae91c82f0f2e8f984)
+        ;
+
+        
+    
+    
+            marker_461f7a69e87b98d290e7398d256a2c00.bindTooltip(
+                `<div>
+                     DELILICIOUS KITCHEN & CAFE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe2449f87b763ec93f14c74c59f773e1 = L.marker(
+                [40.769142065089, -73.926232414205],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_4ff15e1ca00503dcf13b91c61a9a5e8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fe2449f87b763ec93f14c74c59f773e1.setIcon(icon_4ff15e1ca00503dcf13b91c61a9a5e8f);
+        
+    
+        var popup_8b08331f2e9dbae16608f5836ee25591 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09ba2957a789ff57aff2fc93946af50d = $(`<div id="html_09ba2957a789ff57aff2fc93946af50d" style="width: 100.0%; height: 100.0%;">CRESCENT KITCHEN AND GRILL (Score: 123)</div>`)[0];
+                popup_8b08331f2e9dbae16608f5836ee25591.setContent(html_09ba2957a789ff57aff2fc93946af50d);
+            
+        
+
+        marker_fe2449f87b763ec93f14c74c59f773e1.bindPopup(popup_8b08331f2e9dbae16608f5836ee25591)
+        ;
+
+        
+    
+    
+            marker_fe2449f87b763ec93f14c74c59f773e1.bindTooltip(
+                `<div>
+                     CRESCENT KITCHEN AND GRILL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1750010ce9b78cf7fc093de1f209973 = L.marker(
+                [40.746280228096, -73.899908694006],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_3d51da7af7bccf244a09793c10559e38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d1750010ce9b78cf7fc093de1f209973.setIcon(icon_3d51da7af7bccf244a09793c10559e38);
+        
+    
+        var popup_c2ae4849c89668f2d238017371874542 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9aac02241f319f5f812e264b911d1ccb = $(`<div id="html_9aac02241f319f5f812e264b911d1ccb" style="width: 100.0%; height: 100.0%;">DOLLAR HITS NEW YORK (Score: 123)</div>`)[0];
+                popup_c2ae4849c89668f2d238017371874542.setContent(html_9aac02241f319f5f812e264b911d1ccb);
+            
+        
+
+        marker_d1750010ce9b78cf7fc093de1f209973.bindPopup(popup_c2ae4849c89668f2d238017371874542)
+        ;
+
+        
+    
+    
+            marker_d1750010ce9b78cf7fc093de1f209973.bindTooltip(
+                `<div>
+                     DOLLAR HITS NEW YORK
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4513d7a528d873b9a971247454d72642 = L.marker(
+                [40.767578504673, -73.912003004071],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_3d32e745e14924076c6d15df06b179fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4513d7a528d873b9a971247454d72642.setIcon(icon_3d32e745e14924076c6d15df06b179fe);
+        
+    
+        var popup_c150652666f633346135be39adadbe59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d8318beb50b81fa1e9b5fbf1ae2a2f8 = $(`<div id="html_9d8318beb50b81fa1e9b5fbf1ae2a2f8" style="width: 100.0%; height: 100.0%;">OLIVE FAST FOOD (Score: 113)</div>`)[0];
+                popup_c150652666f633346135be39adadbe59.setContent(html_9d8318beb50b81fa1e9b5fbf1ae2a2f8);
+            
+        
+
+        marker_4513d7a528d873b9a971247454d72642.bindPopup(popup_c150652666f633346135be39adadbe59)
+        ;
+
+        
+    
+    
+            marker_4513d7a528d873b9a971247454d72642.bindTooltip(
+                `<div>
+                     OLIVE FAST FOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1406f537aa24b937eb580997c4924d57 = L.marker(
+                [40.782950745191, -73.845858475939],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_187c66828e72d894866b6e91e09c5709 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1406f537aa24b937eb580997c4924d57.setIcon(icon_187c66828e72d894866b6e91e09c5709);
+        
+    
+        var popup_965d3f55c41607aaded44dcae59cb1ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b7e8f4870515e1db66ce76f610d6a23 = $(`<div id="html_4b7e8f4870515e1db66ce76f610d6a23" style="width: 100.0%; height: 100.0%;">YUMMY MANDARIN RESTAURANT (Score: 111)</div>`)[0];
+                popup_965d3f55c41607aaded44dcae59cb1ba.setContent(html_4b7e8f4870515e1db66ce76f610d6a23);
+            
+        
+
+        marker_1406f537aa24b937eb580997c4924d57.bindPopup(popup_965d3f55c41607aaded44dcae59cb1ba)
+        ;
+
+        
+    
+    
+            marker_1406f537aa24b937eb580997c4924d57.bindTooltip(
+                `<div>
+                     YUMMY MANDARIN RESTAURANT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da0eceebb80561d9f4ee73fc71a7a8e7 = L.marker(
+                [40.718289264477, -73.735822246311],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_b3a7f8a234a658f6c709f3e6b4ca1855 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_da0eceebb80561d9f4ee73fc71a7a8e7.setIcon(icon_b3a7f8a234a658f6c709f3e6b4ca1855);
+        
+    
+        var popup_434fb1845fad3c5955613f2c5a34d582 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a388350e9c8fff604504a7b0cc7729c = $(`<div id="html_6a388350e9c8fff604504a7b0cc7729c" style="width: 100.0%; height: 100.0%;">BIG JOHN'S PIZZA & RESTAURANT (Score: 108)</div>`)[0];
+                popup_434fb1845fad3c5955613f2c5a34d582.setContent(html_6a388350e9c8fff604504a7b0cc7729c);
+            
+        
+
+        marker_da0eceebb80561d9f4ee73fc71a7a8e7.bindPopup(popup_434fb1845fad3c5955613f2c5a34d582)
+        ;
+
+        
+    
+    
+            marker_da0eceebb80561d9f4ee73fc71a7a8e7.bindTooltip(
+                `<div>
+                     BIG JOHN'S PIZZA & RESTAURANT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_192ddcf50f2908225d7619f03438da2b = L.marker(
+                [40.733942461293, -73.869783507284],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_7d358f41d8e6e70a30432dd6a4ac2217 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_192ddcf50f2908225d7619f03438da2b.setIcon(icon_7d358f41d8e6e70a30432dd6a4ac2217);
+        
+    
+        var popup_5c549f6bb585a42a3a7aff8d49eda01c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91c258b9b7ee0d03aa1d6b9925823388 = $(`<div id="html_91c258b9b7ee0d03aa1d6b9925823388" style="width: 100.0%; height: 100.0%;">LULU'S PIZZA (Score: 107)</div>`)[0];
+                popup_5c549f6bb585a42a3a7aff8d49eda01c.setContent(html_91c258b9b7ee0d03aa1d6b9925823388);
+            
+        
+
+        marker_192ddcf50f2908225d7619f03438da2b.bindPopup(popup_5c549f6bb585a42a3a7aff8d49eda01c)
+        ;
+
+        
+    
+    
+            marker_192ddcf50f2908225d7619f03438da2b.bindTooltip(
+                `<div>
+                     LULU'S PIZZA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6db323f14562a97b9ebf22395dce07cd = L.marker(
+                [40.743890908308, -73.85713301829],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_2d2f75b9f51f22601920f541b06516dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6db323f14562a97b9ebf22395dce07cd.setIcon(icon_2d2f75b9f51f22601920f541b06516dd);
+        
+    
+        var popup_bb4a467666b995544275cfab8771de32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_805bdf97c85e2e20c1f74ed5c96db31f = $(`<div id="html_805bdf97c85e2e20c1f74ed5c96db31f" style="width: 100.0%; height: 100.0%;">TACOS Y QUESADILLAS MEXICO (Score: 106)</div>`)[0];
+                popup_bb4a467666b995544275cfab8771de32.setContent(html_805bdf97c85e2e20c1f74ed5c96db31f);
+            
+        
+
+        marker_6db323f14562a97b9ebf22395dce07cd.bindPopup(popup_bb4a467666b995544275cfab8771de32)
+        ;
+
+        
+    
+    
+            marker_6db323f14562a97b9ebf22395dce07cd.bindTooltip(
+                `<div>
+                     TACOS Y QUESADILLAS MEXICO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_887a0980f9dbdc2c89f321203dc9d1d1 = L.marker(
+                [40.718233361666, -73.80367883007],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_6aa9326428f55839d0954d7b4a8d26ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_887a0980f9dbdc2c89f321203dc9d1d1.setIcon(icon_6aa9326428f55839d0954d7b4a8d26ff);
+        
+    
+        var popup_bda4498033cf5758957882255ac5a1cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22a18eded0f9292e8b32263a9591a99f = $(`<div id="html_22a18eded0f9292e8b32263a9591a99f" style="width: 100.0%; height: 100.0%;">OLIVE DELI & CAFE (Score: 105)</div>`)[0];
+                popup_bda4498033cf5758957882255ac5a1cf.setContent(html_22a18eded0f9292e8b32263a9591a99f);
+            
+        
+
+        marker_887a0980f9dbdc2c89f321203dc9d1d1.bindPopup(popup_bda4498033cf5758957882255ac5a1cf)
+        ;
+
+        
+    
+    
+            marker_887a0980f9dbdc2c89f321203dc9d1d1.bindTooltip(
+                `<div>
+                     OLIVE DELI & CAFE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a09edb69531b80acd15210a3a3114cdf = L.marker(
+                [40.676344638582, -73.7411480666],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_4897f0687d737f5251e8e3aa6a17c1bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a09edb69531b80acd15210a3a3114cdf.setIcon(icon_4897f0687d737f5251e8e3aa6a17c1bf);
+        
+    
+        var popup_b1ea6afeabfaf6ee29a353d9eb3b9b03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce989b4f3cd5ded8e72bb53304bfe4ec = $(`<div id="html_ce989b4f3cd5ded8e72bb53304bfe4ec" style="width: 100.0%; height: 100.0%;">CROWN FRIED CHICKEN (Score: 104)</div>`)[0];
+                popup_b1ea6afeabfaf6ee29a353d9eb3b9b03.setContent(html_ce989b4f3cd5ded8e72bb53304bfe4ec);
+            
+        
+
+        marker_a09edb69531b80acd15210a3a3114cdf.bindPopup(popup_b1ea6afeabfaf6ee29a353d9eb3b9b03)
+        ;
+
+        
+    
+    
+            marker_a09edb69531b80acd15210a3a3114cdf.bindTooltip(
+                `<div>
+                     CROWN FRIED CHICKEN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_977d4ee67489c757e5978ec4488eb14a = L.marker(
+                [40.751823629275, -73.832998723106],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_e3935619da5ee349b865539926dbf644 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_977d4ee67489c757e5978ec4488eb14a.setIcon(icon_e3935619da5ee349b865539926dbf644);
+        
+    
+        var popup_f1478fc4a14382253958fe1cd8aed874 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1107833950ba77ec20b7aad405b0bf17 = $(`<div id="html_1107833950ba77ec20b7aad405b0bf17" style="width: 100.0%; height: 100.0%;">F PLUS (Score: 104)</div>`)[0];
+                popup_f1478fc4a14382253958fe1cd8aed874.setContent(html_1107833950ba77ec20b7aad405b0bf17);
+            
+        
+
+        marker_977d4ee67489c757e5978ec4488eb14a.bindPopup(popup_f1478fc4a14382253958fe1cd8aed874)
+        ;
+
+        
+    
+    
+            marker_977d4ee67489c757e5978ec4488eb14a.bindTooltip(
+                `<div>
+                     F PLUS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cff4d5125fa0bcd05f461edfe7cd9cb8 = L.marker(
+                [40.698976482741, -73.7930247084],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_1d6626c087b0a40be4f3365d972b1312 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cff4d5125fa0bcd05f461edfe7cd9cb8.setIcon(icon_1d6626c087b0a40be4f3365d972b1312);
+        
+    
+        var popup_21c13eefca6bf87e23d3587f279604df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1dc5f97c377b4df36619d9b6718ecbb = $(`<div id="html_a1dc5f97c377b4df36619d9b6718ecbb" style="width: 100.0%; height: 100.0%;">INNER CIRCLE BAR & LOUNGE (Score: 104)</div>`)[0];
+                popup_21c13eefca6bf87e23d3587f279604df.setContent(html_a1dc5f97c377b4df36619d9b6718ecbb);
+            
+        
+
+        marker_cff4d5125fa0bcd05f461edfe7cd9cb8.bindPopup(popup_21c13eefca6bf87e23d3587f279604df)
+        ;
+
+        
+    
+    
+            marker_cff4d5125fa0bcd05f461edfe7cd9cb8.bindTooltip(
+                `<div>
+                     INNER CIRCLE BAR & LOUNGE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a91be1b019773cdaf9e40477c77a345d = L.marker(
+                [40.753756704275, -73.872029365318],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_f94eee99a8317d030b2633090515730c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a91be1b019773cdaf9e40477c77a345d.setIcon(icon_f94eee99a8317d030b2633090515730c);
+        
+    
+        var popup_0afdd65fd1d42f5d6e0d96c0484f5cc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b11f712d0710afe1afcc9602776ebdd = $(`<div id="html_8b11f712d0710afe1afcc9602776ebdd" style="width: 100.0%; height: 100.0%;">BARRANQUILLA BAKERY & RESTAURANT (Score: 103)</div>`)[0];
+                popup_0afdd65fd1d42f5d6e0d96c0484f5cc5.setContent(html_8b11f712d0710afe1afcc9602776ebdd);
+            
+        
+
+        marker_a91be1b019773cdaf9e40477c77a345d.bindPopup(popup_0afdd65fd1d42f5d6e0d96c0484f5cc5)
+        ;
+
+        
+    
+    
+            marker_a91be1b019773cdaf9e40477c77a345d.bindTooltip(
+                `<div>
+                     BARRANQUILLA BAKERY & RESTAURANT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9cc7f75decdc78ed97e68a438a25c9a = L.marker(
+                [40.752992513848, -73.827177515883],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_83bb29c39a357ad64de6d42131ab2fa0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e9cc7f75decdc78ed97e68a438a25c9a.setIcon(icon_83bb29c39a357ad64de6d42131ab2fa0);
+        
+    
+        var popup_0b82a68a941430cc564a3fff4f28cb98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_774f96c2c518b2fa4151eaf7e7aa59a9 = $(`<div id="html_774f96c2c518b2fa4151eaf7e7aa59a9" style="width: 100.0%; height: 100.0%;">ZOUJI BBQ (Score: 103)</div>`)[0];
+                popup_0b82a68a941430cc564a3fff4f28cb98.setContent(html_774f96c2c518b2fa4151eaf7e7aa59a9);
+            
+        
+
+        marker_e9cc7f75decdc78ed97e68a438a25c9a.bindPopup(popup_0b82a68a941430cc564a3fff4f28cb98)
+        ;
+
+        
+    
+    
+            marker_e9cc7f75decdc78ed97e68a438a25c9a.bindTooltip(
+                `<div>
+                     ZOUJI BBQ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a844bcc1612094383fe10208d5986093 = L.marker(
+                [40.693430080518, -73.852055978661],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_0bd35ac74ab51112d9ccd6094a9d30ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a844bcc1612094383fe10208d5986093.setIcon(icon_0bd35ac74ab51112d9ccd6094a9d30ec);
+        
+    
+        var popup_b36b811457fb47fffcec243f0c303998 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1423db7844eb0aa44dae1951a1a6296 = $(`<div id="html_c1423db7844eb0aa44dae1951a1a6296" style="width: 100.0%; height: 100.0%;">MAMITA'S  COLUMBIAN BAKERY & RESTAURANT (Score: 102)</div>`)[0];
+                popup_b36b811457fb47fffcec243f0c303998.setContent(html_c1423db7844eb0aa44dae1951a1a6296);
+            
+        
+
+        marker_a844bcc1612094383fe10208d5986093.bindPopup(popup_b36b811457fb47fffcec243f0c303998)
+        ;
+
+        
+    
+    
+            marker_a844bcc1612094383fe10208d5986093.bindTooltip(
+                `<div>
+                     MAMITA'S  COLUMBIAN BAKERY & RESTAURANT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_069b29f97bb0098f27586d5fe6b74c20 = L.marker(
+                [40.747620132253, -73.882987448452],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_a591b87b4710eee2868d844a0b8d1333 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_069b29f97bb0098f27586d5fe6b74c20.setIcon(icon_a591b87b4710eee2868d844a0b8d1333);
+        
+    
+        var popup_70a2738795722ac8b18e4350b11c0200 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07a9142158d69645a8f57e4e9be5eea5 = $(`<div id="html_07a9142158d69645a8f57e4e9be5eea5" style="width: 100.0%; height: 100.0%;">TAQUERIA EL ITACATE (Score: 102)</div>`)[0];
+                popup_70a2738795722ac8b18e4350b11c0200.setContent(html_07a9142158d69645a8f57e4e9be5eea5);
+            
+        
+
+        marker_069b29f97bb0098f27586d5fe6b74c20.bindPopup(popup_70a2738795722ac8b18e4350b11c0200)
+        ;
+
+        
+    
+    
+            marker_069b29f97bb0098f27586d5fe6b74c20.bindTooltip(
+                `<div>
+                     TAQUERIA EL ITACATE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2d75bbabeb71693370ca06f8ae83417 = L.marker(
+                [40.788233174874, -73.813572334959],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_018de29408f4d9af0be03a02fbc8bca6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e2d75bbabeb71693370ca06f8ae83417.setIcon(icon_018de29408f4d9af0be03a02fbc8bca6);
+        
+    
+        var popup_2fae0d8f51bfa500b255aa1e85bcf52d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b35ec85540cf83000c62188b6aafcd09 = $(`<div id="html_b35ec85540cf83000c62188b6aafcd09" style="width: 100.0%; height: 100.0%;">DUNKIN (Score: 101)</div>`)[0];
+                popup_2fae0d8f51bfa500b255aa1e85bcf52d.setContent(html_b35ec85540cf83000c62188b6aafcd09);
+            
+        
+
+        marker_e2d75bbabeb71693370ca06f8ae83417.bindPopup(popup_2fae0d8f51bfa500b255aa1e85bcf52d)
+        ;
+
+        
+    
+    
+            marker_e2d75bbabeb71693370ca06f8ae83417.bindTooltip(
+                `<div>
+                     DUNKIN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66086eb38289c50d1bcff86aea4d81f2 = L.marker(
+                [40.75793943459, -73.874252038578],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_1fb7e212d460325843c48400b38b06dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_66086eb38289c50d1bcff86aea4d81f2.setIcon(icon_1fb7e212d460325843c48400b38b06dd);
+        
+    
+        var popup_60514cc8373cccf405ab74d95cacc8e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4c74ca4e0d722c549cee81720dd0fa3 = $(`<div id="html_b4c74ca4e0d722c549cee81720dd0fa3" style="width: 100.0%; height: 100.0%;">DUTAN BAKERY (Score: 100)</div>`)[0];
+                popup_60514cc8373cccf405ab74d95cacc8e2.setContent(html_b4c74ca4e0d722c549cee81720dd0fa3);
+            
+        
+
+        marker_66086eb38289c50d1bcff86aea4d81f2.bindPopup(popup_60514cc8373cccf405ab74d95cacc8e2)
+        ;
+
+        
+    
+    
+            marker_66086eb38289c50d1bcff86aea4d81f2.bindTooltip(
+                `<div>
+                     DUTAN BAKERY
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8916867315cf31001ab98e9fb712655 = L.marker(
+                [40.75947767553, -73.832243080099],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_9a90b7fb67992fc82a3baeaecf97585a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b8916867315cf31001ab98e9fb712655.setIcon(icon_9a90b7fb67992fc82a3baeaecf97585a);
+        
+    
+        var popup_6fa589ac05eb1a221b957cd54f6d718c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb305aad89a76ce595e223710be5e9df = $(`<div id="html_eb305aad89a76ce595e223710be5e9df" style="width: 100.0%; height: 100.0%;">SZECHUAN OPERA (Score: 100)</div>`)[0];
+                popup_6fa589ac05eb1a221b957cd54f6d718c.setContent(html_eb305aad89a76ce595e223710be5e9df);
+            
+        
+
+        marker_b8916867315cf31001ab98e9fb712655.bindPopup(popup_6fa589ac05eb1a221b957cd54f6d718c)
+        ;
+
+        
+    
+    
+            marker_b8916867315cf31001ab98e9fb712655.bindTooltip(
+                `<div>
+                     SZECHUAN OPERA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c017a8ebbdb6c4e9732516b121db3fec = L.marker(
+                [40.751862167958, -73.702789856761],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_e241b4690e6b36475b6a8227d420a460 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c017a8ebbdb6c4e9732516b121db3fec.setIcon(icon_e241b4690e6b36475b6a8227d420a460);
+        
+    
+        var popup_53b7bdf401dc5d0e5f5f7b0cdf56aec5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd8d120093cf34dca325546aa19bb526 = $(`<div id="html_fd8d120093cf34dca325546aa19bb526" style="width: 100.0%; height: 100.0%;">ABCD Indian Bistro & Bar (Score: 99)</div>`)[0];
+                popup_53b7bdf401dc5d0e5f5f7b0cdf56aec5.setContent(html_fd8d120093cf34dca325546aa19bb526);
+            
+        
+
+        marker_c017a8ebbdb6c4e9732516b121db3fec.bindPopup(popup_53b7bdf401dc5d0e5f5f7b0cdf56aec5)
+        ;
+
+        
+    
+    
+            marker_c017a8ebbdb6c4e9732516b121db3fec.bindTooltip(
+                `<div>
+                     ABCD Indian Bistro & Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95f85f116f480c98939f97e7d309af85 = L.marker(
+                [40.712982592081, -73.782379562217],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_7390d9312593b252bd0d0501d2d2a6bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_95f85f116f480c98939f97e7d309af85.setIcon(icon_7390d9312593b252bd0d0501d2d2a6bf);
+        
+    
+        var popup_e4bf418f400bbc1c55dfafdbfe2be745 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44a644e6a21cad43ac635299303c26f4 = $(`<div id="html_44a644e6a21cad43ac635299303c26f4" style="width: 100.0%; height: 100.0%;">HEAVENLY TASTE RESTAURANT (Score: 98)</div>`)[0];
+                popup_e4bf418f400bbc1c55dfafdbfe2be745.setContent(html_44a644e6a21cad43ac635299303c26f4);
+            
+        
+
+        marker_95f85f116f480c98939f97e7d309af85.bindPopup(popup_e4bf418f400bbc1c55dfafdbfe2be745)
+        ;
+
+        
+    
+    
+            marker_95f85f116f480c98939f97e7d309af85.bindTooltip(
+                `<div>
+                     HEAVENLY TASTE RESTAURANT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6d74c650169869223d206bba4d6dcb3 = L.marker(
+                [40.760023562641, -73.828314315508],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_a2b9711cadf0309d6696f47bf8d4f298 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b6d74c650169869223d206bba4d6dcb3.setIcon(icon_a2b9711cadf0309d6696f47bf8d4f298);
+        
+    
+        var popup_0e09a7dc2b33efa8639f11014df96d88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30846d2aebace44d377d7376af6c6700 = $(`<div id="html_30846d2aebace44d377d7376af6c6700" style="width: 100.0%; height: 100.0%;">XIA CHI BEI  SPICY SEAFOOD (Score: 98)</div>`)[0];
+                popup_0e09a7dc2b33efa8639f11014df96d88.setContent(html_30846d2aebace44d377d7376af6c6700);
+            
+        
+
+        marker_b6d74c650169869223d206bba4d6dcb3.bindPopup(popup_0e09a7dc2b33efa8639f11014df96d88)
+        ;
+
+        
+    
+    
+            marker_b6d74c650169869223d206bba4d6dcb3.bindTooltip(
+                `<div>
+                     XIA CHI BEI  SPICY SEAFOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5332090a522b8b0406cc8b9fbca336c8 = L.marker(
+                [40.730635344493, -73.810865631845],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_7f748b27cebf5235738b09e444f0c041 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5332090a522b8b0406cc8b9fbca336c8.setIcon(icon_7f748b27cebf5235738b09e444f0c041);
+        
+    
+        var popup_6567d56657cafd16bca527a0cad51288 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cabc5e5b631c800d3c9fc187915a20ec = $(`<div id="html_cabc5e5b631c800d3c9fc187915a20ec" style="width: 100.0%; height: 100.0%;">BAGEL DELI (Score: 97)</div>`)[0];
+                popup_6567d56657cafd16bca527a0cad51288.setContent(html_cabc5e5b631c800d3c9fc187915a20ec);
+            
+        
+
+        marker_5332090a522b8b0406cc8b9fbca336c8.bindPopup(popup_6567d56657cafd16bca527a0cad51288)
+        ;
+
+        
+    
+    
+            marker_5332090a522b8b0406cc8b9fbca336c8.bindTooltip(
+                `<div>
+                     BAGEL DELI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e840ce48b1420fcd6405cb961fc2260 = L.marker(
+                [40.746943023946, -73.883822324374],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_00295be128065e190b2706c00afb5935 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4e840ce48b1420fcd6405cb961fc2260.setIcon(icon_00295be128065e190b2706c00afb5935);
+        
+    
+        var popup_f05641efbfc7fdc4265b2536b66b129b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f16c1a6f097118a36d016e5f5fcec95 = $(`<div id="html_4f16c1a6f097118a36d016e5f5fcec95" style="width: 100.0%; height: 100.0%;">PARIS BAGUETTE (Score: 96)</div>`)[0];
+                popup_f05641efbfc7fdc4265b2536b66b129b.setContent(html_4f16c1a6f097118a36d016e5f5fcec95);
+            
+        
+
+        marker_4e840ce48b1420fcd6405cb961fc2260.bindPopup(popup_f05641efbfc7fdc4265b2536b66b129b)
+        ;
+
+        
+    
+    
+            marker_4e840ce48b1420fcd6405cb961fc2260.bindTooltip(
+                `<div>
+                     PARIS BAGUETTE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc8ad36cee3a16984b07ff39e9140143 = L.marker(
+                [40.725958303426, -73.870113053345],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_5551c381a2a14a21d50a7fa647d3a9a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_dc8ad36cee3a16984b07ff39e9140143.setIcon(icon_5551c381a2a14a21d50a7fa647d3a9a1);
+        
+    
+        var popup_0bf4c42a756e872dd07f073d487e290d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f17babd1292f46bfeeb5e04ddaaee7b = $(`<div id="html_0f17babd1292f46bfeeb5e04ddaaee7b" style="width: 100.0%; height: 100.0%;">PIO PIO ONE (Score: 96)</div>`)[0];
+                popup_0bf4c42a756e872dd07f073d487e290d.setContent(html_0f17babd1292f46bfeeb5e04ddaaee7b);
+            
+        
+
+        marker_dc8ad36cee3a16984b07ff39e9140143.bindPopup(popup_0bf4c42a756e872dd07f073d487e290d)
+        ;
+
+        
+    
+    
+            marker_dc8ad36cee3a16984b07ff39e9140143.bindTooltip(
+                `<div>
+                     PIO PIO ONE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc0864d9dc31a94c9291bea9b7ebd556 = L.marker(
+                [40.699832760289, -73.755348937687],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_b4eb85adb3b8b473184e3cb236a519fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fc0864d9dc31a94c9291bea9b7ebd556.setIcon(icon_b4eb85adb3b8b473184e3cb236a519fb);
+        
+    
+        var popup_6b6530c832bfcd1df7be3a5e4a793680 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01265f4c634431f91a094aa2390a1bae = $(`<div id="html_01265f4c634431f91a094aa2390a1bae" style="width: 100.0%; height: 100.0%;">CARIBBEAN AMERICAN CUISINE (Score: 95)</div>`)[0];
+                popup_6b6530c832bfcd1df7be3a5e4a793680.setContent(html_01265f4c634431f91a094aa2390a1bae);
+            
+        
+
+        marker_fc0864d9dc31a94c9291bea9b7ebd556.bindPopup(popup_6b6530c832bfcd1df7be3a5e4a793680)
+        ;
+
+        
+    
+    
+            marker_fc0864d9dc31a94c9291bea9b7ebd556.bindTooltip(
+                `<div>
+                     CARIBBEAN AMERICAN CUISINE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b989a97a7083d48d2a31ffe754db67a = L.marker(
+                [40.675642800945, -73.739092258929],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_71ab7dcb25bd9f60ab867d3e66998011 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5b989a97a7083d48d2a31ffe754db67a.setIcon(icon_71ab7dcb25bd9f60ab867d3e66998011);
+        
+    
+        var popup_de8996e1375ac792221eafe4d7b25991 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9123e45fc0130d707b79c421759b9964 = $(`<div id="html_9123e45fc0130d707b79c421759b9964" style="width: 100.0%; height: 100.0%;">TWIN THUMB RESTAURANT (Score: 94)</div>`)[0];
+                popup_de8996e1375ac792221eafe4d7b25991.setContent(html_9123e45fc0130d707b79c421759b9964);
+            
+        
+
+        marker_5b989a97a7083d48d2a31ffe754db67a.bindPopup(popup_de8996e1375ac792221eafe4d7b25991)
+        ;
+
+        
+    
+    
+            marker_5b989a97a7083d48d2a31ffe754db67a.bindTooltip(
+                `<div>
+                     TWIN THUMB RESTAURANT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50ba8e912f25763c3bc4ad3b7a36fe87 = L.marker(
+                [40.710404341229, -73.793771813642],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_94dc3292337a4b597654ae55e25276a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_50ba8e912f25763c3bc4ad3b7a36fe87.setIcon(icon_94dc3292337a4b597654ae55e25276a3);
+        
+    
+        var popup_25aa3feedfcfdb5321c4707489dc8b9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49deb5a46fa321456c419d579db70418 = $(`<div id="html_49deb5a46fa321456c419d579db70418" style="width: 100.0%; height: 100.0%;">CROWN FRIED CHICKEN (Score: 93)</div>`)[0];
+                popup_25aa3feedfcfdb5321c4707489dc8b9a.setContent(html_49deb5a46fa321456c419d579db70418);
+            
+        
+
+        marker_50ba8e912f25763c3bc4ad3b7a36fe87.bindPopup(popup_25aa3feedfcfdb5321c4707489dc8b9a)
+        ;
+
+        
+    
+    
+            marker_50ba8e912f25763c3bc4ad3b7a36fe87.bindTooltip(
+                `<div>
+                     CROWN FRIED CHICKEN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b0bbe94cac56ba4ad373d908d44e624 = L.marker(
+                [40.7171662645, -73.740462233509],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_39e7d6d0c7e5ea50ee23c1683163f132 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5b0bbe94cac56ba4ad373d908d44e624.setIcon(icon_39e7d6d0c7e5ea50ee23c1683163f132);
+        
+    
+        var popup_03a8a85635ea770f5792270c72e74b6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65ede58efe54a7cc7b4d6c50daba0e38 = $(`<div id="html_65ede58efe54a7cc7b4d6c50daba0e38" style="width: 100.0%; height: 100.0%;">FLAM'S CUISINE & CATERING (Score: 93)</div>`)[0];
+                popup_03a8a85635ea770f5792270c72e74b6a.setContent(html_65ede58efe54a7cc7b4d6c50daba0e38);
+            
+        
+
+        marker_5b0bbe94cac56ba4ad373d908d44e624.bindPopup(popup_03a8a85635ea770f5792270c72e74b6a)
+        ;
+
+        
+    
+    
+            marker_5b0bbe94cac56ba4ad373d908d44e624.bindTooltip(
+                `<div>
+                     FLAM'S CUISINE & CATERING
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_825ec480ed5076c8599294b89a5e18d9 = L.marker(
+                [40.71546191011, -73.747914392514],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_dea7a05a3773f5eb04be4f7f33e89160 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_825ec480ed5076c8599294b89a5e18d9.setIcon(icon_dea7a05a3773f5eb04be4f7f33e89160);
+        
+    
+        var popup_c32b9c20cb1719a92ef14326d4f99992 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9942240adc68f703aab6641944df540b = $(`<div id="html_9942240adc68f703aab6641944df540b" style="width: 100.0%; height: 100.0%;">MR.KING CHICKEN & PIZZA (Score: 93)</div>`)[0];
+                popup_c32b9c20cb1719a92ef14326d4f99992.setContent(html_9942240adc68f703aab6641944df540b);
+            
+        
+
+        marker_825ec480ed5076c8599294b89a5e18d9.bindPopup(popup_c32b9c20cb1719a92ef14326d4f99992)
+        ;
+
+        
+    
+    
+            marker_825ec480ed5076c8599294b89a5e18d9.bindTooltip(
+                `<div>
+                     MR.KING CHICKEN & PIZZA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e9fdfe073319abfb778d9724f994768 = L.marker(
+                [40.761137076579, -73.909148988341],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_2e5e2c6403f379c5d51da775acf179e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5e9fdfe073319abfb778d9724f994768.setIcon(icon_2e5e2c6403f379c5d51da775acf179e2);
+        
+    
+        var popup_4d4499d2085cf9838d6e974b01e0a4f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7235945a07846ecab7e76aedd00302cf = $(`<div id="html_7235945a07846ecab7e76aedd00302cf" style="width: 100.0%; height: 100.0%;">SHILLELAGH TAVERN (Score: 93)</div>`)[0];
+                popup_4d4499d2085cf9838d6e974b01e0a4f5.setContent(html_7235945a07846ecab7e76aedd00302cf);
+            
+        
+
+        marker_5e9fdfe073319abfb778d9724f994768.bindPopup(popup_4d4499d2085cf9838d6e974b01e0a4f5)
+        ;
+
+        
+    
+    
+            marker_5e9fdfe073319abfb778d9724f994768.bindTooltip(
+                `<div>
+                     SHILLELAGH TAVERN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c6459205a0b309909d508873bc1f16d = L.marker(
+                [40.747055593936, -73.88941249802],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_713a0f9c6e31a8f83234322ef595f117 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5c6459205a0b309909d508873bc1f16d.setIcon(icon_713a0f9c6e31a8f83234322ef595f117);
+        
+    
+        var popup_fec923a39e4e21b62b90e1075eb37b2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae8313e4a6babaa4047bd6315b54267f = $(`<div id="html_ae8313e4a6babaa4047bd6315b54267f" style="width: 100.0%; height: 100.0%;">TAQUERIA COATZINGO (Score: 93)</div>`)[0];
+                popup_fec923a39e4e21b62b90e1075eb37b2e.setContent(html_ae8313e4a6babaa4047bd6315b54267f);
+            
+        
+
+        marker_5c6459205a0b309909d508873bc1f16d.bindPopup(popup_fec923a39e4e21b62b90e1075eb37b2e)
+        ;
+
+        
+    
+    
+            marker_5c6459205a0b309909d508873bc1f16d.bindTooltip(
+                `<div>
+                     TAQUERIA COATZINGO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_809145729bd25275c7696c956ce836b4 = L.marker(
+                [40.763286554716, -73.827959321025],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_1f28fd1c77156c604039ac50714f2cd0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_809145729bd25275c7696c956ce836b4.setIcon(icon_1f28fd1c77156c604039ac50714f2cd0);
+        
+    
+        var popup_2330b5d3dac8a16f723bf3e8883924b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff1aec29dbffd26bf244559a16744187 = $(`<div id="html_ff1aec29dbffd26bf244559a16744187" style="width: 100.0%; height: 100.0%;">UNION SUSHI (Score: 93)</div>`)[0];
+                popup_2330b5d3dac8a16f723bf3e8883924b2.setContent(html_ff1aec29dbffd26bf244559a16744187);
+            
+        
+
+        marker_809145729bd25275c7696c956ce836b4.bindPopup(popup_2330b5d3dac8a16f723bf3e8883924b2)
+        ;
+
+        
+    
+    
+            marker_809145729bd25275c7696c956ce836b4.bindTooltip(
+                `<div>
+                     UNION SUSHI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_448817710cfc58e908e60c8d01e42094 = L.marker(
+                [40.741356328454, -73.880086263143],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_b1180f1baca9b6ab418914e3987ccc0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_448817710cfc58e908e60c8d01e42094.setIcon(icon_b1180f1baca9b6ab418914e3987ccc0d);
+        
+    
+        var popup_4adde749029cf910f7d55cf860d90ea2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bac19606baebc23d5d7433985902c91a = $(`<div id="html_bac19606baebc23d5d7433985902c91a" style="width: 100.0%; height: 100.0%;">FU FAN RESTAURANT (Score: 92)</div>`)[0];
+                popup_4adde749029cf910f7d55cf860d90ea2.setContent(html_bac19606baebc23d5d7433985902c91a);
+            
+        
+
+        marker_448817710cfc58e908e60c8d01e42094.bindPopup(popup_4adde749029cf910f7d55cf860d90ea2)
+        ;
+
+        
+    
+    
+            marker_448817710cfc58e908e60c8d01e42094.bindTooltip(
+                `<div>
+                     FU FAN RESTAURANT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b987cdaf6c74833c9ccc159a786c44c7 = L.marker(
+                [40.745527084762, -73.927702236685],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_1227c72f683b891ba5eeb1f526cb6ffb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b987cdaf6c74833c9ccc159a786c44c7.setIcon(icon_1227c72f683b891ba5eeb1f526cb6ffb);
+        
+    
+        var popup_ee8c09e6639e5353450d47cf440a1040 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4478d8cc11ec6ef0b134fe7213013ad = $(`<div id="html_c4478d8cc11ec6ef0b134fe7213013ad" style="width: 100.0%; height: 100.0%;">GALLAGHER'S 2000 (Score: 92)</div>`)[0];
+                popup_ee8c09e6639e5353450d47cf440a1040.setContent(html_c4478d8cc11ec6ef0b134fe7213013ad);
+            
+        
+
+        marker_b987cdaf6c74833c9ccc159a786c44c7.bindPopup(popup_ee8c09e6639e5353450d47cf440a1040)
+        ;
+
+        
+    
+    
+            marker_b987cdaf6c74833c9ccc159a786c44c7.bindTooltip(
+                `<div>
+                     GALLAGHER'S 2000
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_486b45e728ed4d7be30c9814781f1db0 = L.marker(
+                [40.733840182011, -73.871577033806],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_97e8417e0743ec95736ab2e351cd8353 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_486b45e728ed4d7be30c9814781f1db0.setIcon(icon_97e8417e0743ec95736ab2e351cd8353);
+        
+    
+        var popup_46f172ce330313df8e337f1ac2ae38c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a70d3110ddfeb5584a4ca0af8ffab63c = $(`<div id="html_a70d3110ddfeb5584a4ca0af8ffab63c" style="width: 100.0%; height: 100.0%;">15 FLAVORS (FROZEN DLITE) (Score: 91)</div>`)[0];
+                popup_46f172ce330313df8e337f1ac2ae38c0.setContent(html_a70d3110ddfeb5584a4ca0af8ffab63c);
+            
+        
+
+        marker_486b45e728ed4d7be30c9814781f1db0.bindPopup(popup_46f172ce330313df8e337f1ac2ae38c0)
+        ;
+
+        
+    
+    
+            marker_486b45e728ed4d7be30c9814781f1db0.bindTooltip(
+                `<div>
+                     15 FLAVORS (FROZEN DLITE)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d62c2d6c8cbe933d5b17e92715cd25ed = L.marker(
+                [40.711312162818, -73.856272488771],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_6e0798a34a344c72e947d671e6b71544 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d62c2d6c8cbe933d5b17e92715cd25ed.setIcon(icon_6e0798a34a344c72e947d671e6b71544);
+        
+    
+        var popup_4fd4f63e5e058ce74d2974e56a95f022 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3aacd9bbac61dab9b8be70e6f82998a6 = $(`<div id="html_3aacd9bbac61dab9b8be70e6f82998a6" style="width: 100.0%; height: 100.0%;">GOURMET BAKERY & DELI (Score: 91)</div>`)[0];
+                popup_4fd4f63e5e058ce74d2974e56a95f022.setContent(html_3aacd9bbac61dab9b8be70e6f82998a6);
+            
+        
+
+        marker_d62c2d6c8cbe933d5b17e92715cd25ed.bindPopup(popup_4fd4f63e5e058ce74d2974e56a95f022)
+        ;
+
+        
+    
+    
+            marker_d62c2d6c8cbe933d5b17e92715cd25ed.bindTooltip(
+                `<div>
+                     GOURMET BAKERY & DELI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9e4e096517d315c9d543755a9700fa0 = L.marker(
+                [40.757836732918, -73.789231493848],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_23d5e7e1065647e822d097f19bab85c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f9e4e096517d315c9d543755a9700fa0.setIcon(icon_23d5e7e1065647e822d097f19bab85c1);
+        
+    
+        var popup_9b4413df28919b1bb3efed0ad849b08a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f7b737d6409139d5079b9776bf14eef = $(`<div id="html_7f7b737d6409139d5079b9776bf14eef" style="width: 100.0%; height: 100.0%;">SILK HOOKAH LOUNGE (Score: 91)</div>`)[0];
+                popup_9b4413df28919b1bb3efed0ad849b08a.setContent(html_7f7b737d6409139d5079b9776bf14eef);
+            
+        
+
+        marker_f9e4e096517d315c9d543755a9700fa0.bindPopup(popup_9b4413df28919b1bb3efed0ad849b08a)
+        ;
+
+        
+    
+    
+            marker_f9e4e096517d315c9d543755a9700fa0.bindTooltip(
+                `<div>
+                     SILK HOOKAH LOUNGE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12025b396566dcd8953346f8eae3a427 = L.marker(
+                [40.765360332795, -73.931539728153],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_324ad5ea3cb403f162d99e5c73592db7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_12025b396566dcd8953346f8eae3a427.setIcon(icon_324ad5ea3cb403f162d99e5c73592db7);
+        
+    
+        var popup_c8f70df94a21a1fab9059135473e7326 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1ce498ef28abd1ae297e06e68619382 = $(`<div id="html_b1ce498ef28abd1ae297e06e68619382" style="width: 100.0%; height: 100.0%;">BEL-AIRE DINER (Score: 89)</div>`)[0];
+                popup_c8f70df94a21a1fab9059135473e7326.setContent(html_b1ce498ef28abd1ae297e06e68619382);
+            
+        
+
+        marker_12025b396566dcd8953346f8eae3a427.bindPopup(popup_c8f70df94a21a1fab9059135473e7326)
+        ;
+
+        
+    
+    
+            marker_12025b396566dcd8953346f8eae3a427.bindTooltip(
+                `<div>
+                     BEL-AIRE DINER
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65854996407429790e9914ffc6aec73d = L.marker(
+                [40.664774783697, -73.734895966279],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_2229179f0f5699541570535092dc2471 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_65854996407429790e9914ffc6aec73d.setIcon(icon_2229179f0f5699541570535092dc2471);
+        
+    
+        var popup_16dbd7c6a1971ba66a9feb0f015987b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_405ca53ccc93e64931afef22d2971705 = $(`<div id="html_405ca53ccc93e64931afef22d2971705" style="width: 100.0%; height: 100.0%;">CHINA GOURMET (Score: 89)</div>`)[0];
+                popup_16dbd7c6a1971ba66a9feb0f015987b7.setContent(html_405ca53ccc93e64931afef22d2971705);
+            
+        
+
+        marker_65854996407429790e9914ffc6aec73d.bindPopup(popup_16dbd7c6a1971ba66a9feb0f015987b7)
+        ;
+
+        
+    
+    
+            marker_65854996407429790e9914ffc6aec73d.bindTooltip(
+                `<div>
+                     CHINA GOURMET
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af5e5a4a3213617de996aad08ab76c44 = L.marker(
+                [40.738436704415, -73.886269376757],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_8bea135b664877952f3b6da782ebda25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_af5e5a4a3213617de996aad08ab76c44.setIcon(icon_8bea135b664877952f3b6da782ebda25);
+        
+    
+        var popup_6da86d09b9749cd9858f8e1565c30e85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aadd62cecfb6f313205e63bbe56dae8e = $(`<div id="html_aadd62cecfb6f313205e63bbe56dae8e" style="width: 100.0%; height: 100.0%;">DA PAI DONG (Score: 89)</div>`)[0];
+                popup_6da86d09b9749cd9858f8e1565c30e85.setContent(html_aadd62cecfb6f313205e63bbe56dae8e);
+            
+        
+
+        marker_af5e5a4a3213617de996aad08ab76c44.bindPopup(popup_6da86d09b9749cd9858f8e1565c30e85)
+        ;
+
+        
+    
+    
+            marker_af5e5a4a3213617de996aad08ab76c44.bindTooltip(
+                `<div>
+                     DA PAI DONG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_64b866f41e92d89f94aa9e5a765171b9 = L.marker(
+                [40.748013367826, -73.946935866687],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_afc510f9684b598067f9952db60b99c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_64b866f41e92d89f94aa9e5a765171b9.setIcon(icon_afc510f9684b598067f9952db60b99c8);
+        
+    
+        var popup_d94a45f1c2a6a900451317c3b6ba287a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4004cb19df1c57860f983f408bd2a652 = $(`<div id="html_4004cb19df1c57860f983f408bd2a652" style="width: 100.0%; height: 100.0%;">MULTISWEET (Score: 89)</div>`)[0];
+                popup_d94a45f1c2a6a900451317c3b6ba287a.setContent(html_4004cb19df1c57860f983f408bd2a652);
+            
+        
+
+        marker_64b866f41e92d89f94aa9e5a765171b9.bindPopup(popup_d94a45f1c2a6a900451317c3b6ba287a)
+        ;
+
+        
+    
+    
+            marker_64b866f41e92d89f94aa9e5a765171b9.bindTooltip(
+                `<div>
+                     MULTISWEET
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8189c9547ad8822c331b20c8bf8d481e = L.marker(
+                [40.758501995257, -73.833241808988],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_f4071495de2d89ba7fecc398cab436b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8189c9547ad8822c331b20c8bf8d481e.setIcon(icon_f4071495de2d89ba7fecc398cab436b0);
+        
+    
+        var popup_c99d3a5a24275804ee745be6c34c378f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_387344962db6de41310ac9ccccd2d7e8 = $(`<div id="html_387344962db6de41310ac9ccccd2d7e8" style="width: 100.0%; height: 100.0%;">SPICY HOUSE (#5) (Score: 89)</div>`)[0];
+                popup_c99d3a5a24275804ee745be6c34c378f.setContent(html_387344962db6de41310ac9ccccd2d7e8);
+            
+        
+
+        marker_8189c9547ad8822c331b20c8bf8d481e.bindPopup(popup_c99d3a5a24275804ee745be6c34c378f)
+        ;
+
+        
+    
+    
+            marker_8189c9547ad8822c331b20c8bf8d481e.bindTooltip(
+                `<div>
+                     SPICY HOUSE (#5)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6669089410088213c78640dea6fd320f = L.marker(
+                [40.707304619179, -73.804237742715],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_decd986857e99250dd2e6b4220877c41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6669089410088213c78640dea6fd320f.setIcon(icon_decd986857e99250dd2e6b4220877c41);
+        
+    
+        var popup_3ad4c78c6cac87baa113afa65e02ca4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fbde8ff492bf44cacdd0e1e8f3896ec = $(`<div id="html_5fbde8ff492bf44cacdd0e1e8f3896ec" style="width: 100.0%; height: 100.0%;">TONG (Score: 89)</div>`)[0];
+                popup_3ad4c78c6cac87baa113afa65e02ca4a.setContent(html_5fbde8ff492bf44cacdd0e1e8f3896ec);
+            
+        
+
+        marker_6669089410088213c78640dea6fd320f.bindPopup(popup_3ad4c78c6cac87baa113afa65e02ca4a)
+        ;
+
+        
+    
+    
+            marker_6669089410088213c78640dea6fd320f.bindTooltip(
+                `<div>
+                     TONG
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5914653098cdff4c3c89c7c27189b1fc = L.marker(
+                [40.758676982652, -73.829050559757],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_b345ee978d7110745595148c7dc8e4ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5914653098cdff4c3c89c7c27189b1fc.setIcon(icon_b345ee978d7110745595148c7dc8e4ef);
+        
+    
+        var popup_678fb25b76e5497b9e3634d4bdacf676 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a42b91129a0f19b8d0705384850afa20 = $(`<div id="html_a42b91129a0f19b8d0705384850afa20" style="width: 100.0%; height: 100.0%;">BIAN LIANG RESTAURANT (Score: 88)</div>`)[0];
+                popup_678fb25b76e5497b9e3634d4bdacf676.setContent(html_a42b91129a0f19b8d0705384850afa20);
+            
+        
+
+        marker_5914653098cdff4c3c89c7c27189b1fc.bindPopup(popup_678fb25b76e5497b9e3634d4bdacf676)
+        ;
+
+        
+    
+    
+            marker_5914653098cdff4c3c89c7c27189b1fc.bindTooltip(
+                `<div>
+                     BIAN LIANG RESTAURANT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8fa14395a9f6c4dad9b7484103656310 = L.marker(
+                [40.760940571825, -73.830333418528],
+                {}
+            ).addTo(map_c30dfeccf7f8216215803f0a42b9c22b);
+        
+    
+            var icon_de2c07b4333de0d6da9fb99b5f2b7756 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8fa14395a9f6c4dad9b7484103656310.setIcon(icon_de2c07b4333de0d6da9fb99b5f2b7756);
+        
+    
+        var popup_cfe119e395ff3457b3334c817e0a2cb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf188bd11ece69ccc98e672bba0eca0c = $(`<div id="html_cf188bd11ece69ccc98e672bba0eca0c" style="width: 100.0%; height: 100.0%;">DONG YUE SEAFOOD RESTAURANT (Score: 88)</div>`)[0];
+                popup_cfe119e395ff3457b3334c817e0a2cb7.setContent(html_cf188bd11ece69ccc98e672bba0eca0c);
+            
+        
+
+        marker_8fa14395a9f6c4dad9b7484103656310.bindPopup(popup_cfe119e395ff3457b3334c817e0a2cb7)
+        ;
+
+        
+    
+    
+            marker_8fa14395a9f6c4dad9b7484103656310.bindTooltip(
+                `<div>
+                     DONG YUE SEAFOOD RESTAURANT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
